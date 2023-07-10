@@ -1,0 +1,16 @@
+.last-container-home {
+  color: white;
+  padding: 2vh;
+  margin-bottom: -10vh;
+}
+.last-text {
+  margin: 10px;
+}
+.last-flex {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.box-1 svg {
+  margin: 3px;
+}
