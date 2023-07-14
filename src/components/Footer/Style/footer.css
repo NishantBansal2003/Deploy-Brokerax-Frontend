@@ -2,15 +2,7 @@
   background: #151414;
   position: relative;
 }
-/* .footer-section{
-  display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 auto;
-display: grid;
-place-items: center;
-text-align: center;
-} */
+
 .footer-cta {
   border-bottom: 1px solid #373636;
   padding-bottom: 8px !important;
