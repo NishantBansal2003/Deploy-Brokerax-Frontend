@@ -66,7 +66,7 @@ body {
   position: absolute;
   color: white;
   background-color: #2d2d2d;
-  right: 1px;
+  right: -2.7vw;
   top: 18%;
   height: 20vw;
   width: 25vw;
@@ -149,7 +149,7 @@ button.contact_form_submit {
   }
   .contact_field {
     width: 52vw;
-    padding: 2vw 0 3vw 0;
+    padding: 2vw 0 3vw 5vw;
   }
   .contact_inner {
     width: 60vw;
