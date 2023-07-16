@@ -41,7 +41,7 @@ function LoginForm() {
   }
   return (
     <div id="container">
-      <header>Become a Member</header>
+      <header>Already a Member</header>
       <form method="post" onSubmit={handleSubmit}>
         <fieldset>
           <br />
@@ -71,9 +71,18 @@ function LoginForm() {
           <br />
           <br />
           <label htmlFor="submit"></label>
-          <input type="submit" name="submit" id="submit" value="REGISTER" />
+          <input type="submit" name="submit" id="submit" value="LOGIN" />
         </fieldset>
       </form>
+    <br/>
+    <br/>
+      <div className="haveaccount">
+         <p id="acc"  >Don't have an account? 
+          <a href="/signup">
+          <button id="naya">Signup</button>
+          </a>
+          </p>
+         </div>
     </div>
   );
 }

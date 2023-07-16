@@ -1,7 +1,7 @@
 #container {
   background: rgba(3, 3, 55, 0.5);
-  width: 18.75rem;
-  height: 28rem;
+  width: 19rem;
+  height: 29rem;
   margin: auto;
   position: absolute;
   top: 0;
@@ -43,6 +43,85 @@ input {
   border-color: #ff0000;
   padding: 10px;
   color: white;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: 0;
+  background: rgba(235, 30, 54, 0.3);
+  border-radius: 1.2rem;
+  border-color: transparent;
+}
+
+::placeholder {
+  color: #d3d3d3;
+}
+
+/*Media queries */
+
+@media all and (min-width: 481px) and (max-width: 568px) {
+  #container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+#acc {
+  color: aliceblue;
+  border-radius: 5px;
+}
+.haveaccount {
+  text-align: center;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3rem;
+  height: 3rem;
+  background: rgba(3, 3, 55, 0.7);
+  font-size: 1.4rem;
+  color: #d3d3d3;
+}
+
+fieldset {
+  border: 0;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background: #fc5b3f;
+  border: 0;
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+#signup-switch {
+  background: #fc5b3f;
+  color: aliceblue;
+  font-size: small;
+}
+#submit {
+  border-radius: 2rem;
+}
+input {
+  background: transparent;
+  border: 0;
+  border-left: 4px solid;
+  border-color: #fc5b3f;
+  padding: 10px;
+  color: white;
+}
+#naya {
+  padding: 1px;
+  margin: 0px;
+  color: blue;
+  border-radius: 0.5rem;
+  background: transparent;
 }
 
 input[type="text"]:focus,
