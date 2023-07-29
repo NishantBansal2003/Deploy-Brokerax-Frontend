@@ -29,7 +29,7 @@ function LoginForm() {
         window.localStorage.setItem("last_name", data.last_name);
         toast.success("Login Successfull");
         setTimeout(() => {
-          window.location.href = "/coins";
+          window.location.href = "/dashboard";
         }, 2000);
 
         // Handle data
@@ -74,15 +74,16 @@ function LoginForm() {
           <input type="submit" name="submit" id="submit" value="LOGIN" />
         </fieldset>
       </form>
-    <br/>
-    <br/>
+      <br />
+      <br />
       <div className="haveaccount">
-         <p id="acc"  >Don't have an account? 
+        <p id="acc">
+          Don't have an account?
           <a href="/signup">
-          <button id="naya">Signup</button>
+            <button id="naya">Signup</button>
           </a>
-          </p>
-         </div>
+        </p>
+      </div>
     </div>
   );
 }
